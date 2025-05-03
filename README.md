@@ -11,7 +11,6 @@ No external datepicker libraries required — just simple, clean UI and logic.
 - Calendar UI with full month navigation
 - Click-to-select day support
 - Date display updates dynamically
-- Toggle visibility by clicking the picker
 - No external datepicker plugins
 - Zero-dependency on complex JS frameworks
 
