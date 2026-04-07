@@ -1,19 +1,22 @@
 # datepicker
-Custom Bootstrap DatePicker UI
-# 📅 Custom Bootstrap DatePicker UI
 
-A lightweight, fully custom datepicker UI built using **HTML**, **CSS**, **Bootstrap 4.6**, **FontAwesome**, and **jQuery**.  
-No external datepicker libraries required — just simple, clean UI and logic.
+A small reusable datepicker component built with plain HTML, CSS, and JavaScript.
 
-## 🚀 Features
+## Features
 
-- Responsive and styled with Bootstrap 4.6
-- Calendar UI with full month navigation
-- Click-to-select day support
-- Date display updates dynamically
-- No external datepicker plugins
-- Zero-dependency on complex JS frameworks
+- open and close calendar from an input-like button
+- navigate between months
+- select a date
+- highlight today and the selected date
+- reuse the component by mounting it on any element
+- no frameworks and no datepicker libraries
 
-## 🛠️ Tech Stack
+## Project structure
 
-- HTML5, CSS3
+- `index.html` contains the demo page
+- `index.css` contains component and page styles
+- `index.js` contains the reusable `DatePicker` class and demo usage
+
+## Run locally
+
+Open `index.html` in a browser.
